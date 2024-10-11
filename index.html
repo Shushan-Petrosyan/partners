@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="assets/css/style.css">
-   <link
+ <!--  <link
    rel="stylesheet"
    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
- />
+ />-->
     <title>Icon Grid</title>
 </head>
 <body>
@@ -20,26 +20,118 @@
 
 
     <div class="grid">
-        <div class="icon"><img src="assets/icons/Bitmap.png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
-        <div class="icon"><img src="assets/icons/Bitmap(1).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
-        <div class="icon"><img src="assets/icons/Bitmap(2).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
-        <div class="icon tablet"><img src="assets/icons/Bitmap(7).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
-        <div class="icon"><img src="assets/icons/Bitmap(3).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
-        <div class="icon"><img src="assets/icons/Bitmap(4).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
-        <div class="icon"><img src="assets/icons/Bitmap(5).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
-        <div class="icon tablet"><img src="assets/icons/Bitmap(6).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
-        <div class="icon hidden"><img src="assets/icons/Bitmap.png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
-        <div class="icon hidden"><img src="assets/icons/Bitmap(1).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
-        <div class="icon hidden"><img src="assets/icons/Bitmap(2).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon"><img class="grid-icn" src="assets/icons/Bitmap.png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon"><img class="grid-icn"  src="assets/icons/Bitmap(1).png" alt=""> <img class="img2" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon"><img class="grid-icn"  src="assets/icons/Bitmap(2).png" alt=""> <img class="img3" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon tablet"><img class="grid-icn"  src="assets/icons/Bitmap(7).png" alt=""> <img class="img4" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon"><img class="grid-icn"  src="assets/icons/Bitmap(3).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon"><img class="grid-icn4"  src="assets/icons/Bitmap(4).png" alt=""> <img class="img6" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon"><img class="grid-icn"  src="assets/icons/Bitmap(5).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon tablet"><img class="grid-icn"  src="assets/icons/Bitmap(6).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon hidden"><img class="grid-icn"  src="assets/icons/Bitmap.png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon hidden"><img class="grid-icn"  src="assets/icons/Bitmap(1).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
+        <div class="icon hidden"><img class="grid-icn"  src="assets/icons/Bitmap(2).png" alt=""> <img class="img" src="assets/icons/go.svg" alt=""></div>
       </div>
 
 
-<div class="end">
-  <img class="end-icon" src="assets/icons/expand.png" alt="">
-  <button id="seeMoreBtn">Показать все </button>
+      <button id="seeMoreBtn">Показать все </button>
+ <img id="end-icon" src="assets/icons/expand.png" alt=""> 
+ 
+
+
+
+
+
+
+    <div  id="carousel" class="py-1 flex justify-between items-center mt-2 gap-2 overflow-hidden overflow-x-auto scrollbar-hidden">
+        <a href="#" class="w-[300px] h-28 relative bg-neutral-200 shadow-sm transition-all duration-300 rounded-md hover:scale-[1.05] flex-shrink-0 overflow-hidden">
+            <img class="icns" src="assets/icons/Bitmap.png" alt="Description of image 1" class="w-full h-full object-cover"> <img class="gos" src="assets/icons/go.svg" alt="">
+        </a>
+        <a href="#" class="w-[300px] h-28 relative bg-neutral-200 shadow-sm transition-all duration-300 rounded-md hover:scale-[1.05] flex-shrink-0 overflow-hidden">
+            <img class="icns"  src="assets/icons/Bitmap(1).png" alt="Description of image 2" class="w-full h-full object-cover"> <img class="gos" src="assets/icons/go.svg" alt="">
+        </a>
+        <a href="#" class="w-[300px] h-28 relative bg-neutral-200 shadow-sm transition-all duration-300 rounded-md hover:scale-[1.05] flex-shrink-0 overflow-hidden">
+            <img class="icns icnmac"  src="assets/icons/Bitmap(2).png" alt="Description of image 3" class="w-full h-full object-cover"> <img class="gos gosmac" src="assets/icons/go.svg" alt="">
+        </a>
+        <a href="#" class="w-[300px] h-28 relative bg-neutral-200 shadow-sm transition-all duration-300 rounded-md hover:scale-[1.05] flex-shrink-0 overflow-hidden">
+            <img class="icns" src="assets/icons/Bitmap(3).png" alt="Description of image 4" class="w-full h-full object-cover"> <img class="gos" src="assets/icons/go.svg" alt="">
+        </a>
+        
+        <a href="#" class="w-[300px] h-28 relative bg-neutral-200 shadow-sm transition-all duration-300 rounded-md hover:scale-[1.05] flex-shrink-0 overflow-hidden">
+            <img class="icns" src="assets/icons/Bitmap(5).png" alt="Description of image 6" class="w-full h-full object-cover"> <img class="gos" src="assets/icons/go.svg" alt="">
+        </a>
+        <a href="#" class="w-[300px] h-28 relative bg-neutral-200 shadow-sm transition-all duration-300 rounded-md hover:scale-[1.05] flex-shrink-0 overflow-hidden">
+            <img class="icns" src="assets/icons/Bitmap(6).png" alt="Description of image 7" class="w-full h-full object-cover"> <img class="gos" src="assets/icons/go.svg" alt="">
+        </a>
+        <a href="#" class="w-[300px] h-28 relative bg-neutral-200 shadow-sm transition-all duration-300 rounded-md hover:scale-[1.05] flex-shrink-0 overflow-hidden">
+          <img class="icns" src="assets/icons/Bitmap(7).png" alt="Description of image 8" class="w-full h-full object-cover"> <img class="gos" src="assets/icons/go.svg" alt="">
+      </a>
+      <a href="#" class="w-[300px] h-28 relative bg-neutral-200 shadow-sm transition-all duration-300 rounded-md hover:scale-[1.05] flex-shrink-0 overflow-hidden">
+        <img class="icns" src="assets/icons/Bitmap(3).png" alt="Description of image 9" class="w-full h-full object-cover"> <img class="gos" src="assets/icons/go.svg" alt="">
+    </a>
+    <a href="#" class="w-[300px] h-28 relative bg-neutral-200 shadow-sm transition-all duration-300 rounded-md hover:scale-[1.05] flex-shrink-0 overflow-hidden">
+      <img class="icns icnmac"  src="assets/icons/Bitmap(2).png" alt="Description of image 3" class="w-full h-full object-cover"> <img class="gos gosmac" src="assets/icons/go.svg" alt="">
+  </a>
+    </div>
+
+
+
+
+ <div class="flex justify-center mt-4" id="pagination-dots">
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="0"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="1"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="2"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="3"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="4"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="5"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="6"></span>
+
+<script>
+  const carousel = document.getElementById('carousel');
+  const dots = document.querySelectorAll('.dot');
+  const itemWidth = 400;
+  let currentIndex = 0;
+  
+  function updateDots(index) {
+    dots.forEach(dot => dot.classList.remove('bg-gray-900'));
+    dots[index].classList.add('bg-gray-900');
+  }
+  dots.forEach(dot => {
+              dot.addEventListener('click', (e) => {
+                  currentIndex = parseInt(e.target.dataset.index);
+                  carousel.scrollTo({
+                      left: currentIndex * itemWidth,
+                      behavior: 'smooth'
+                  });
+                  updateDots(currentIndex);
+              });
+          });
+  
+          carousel.addEventListener('scroll', () => {
+              const scrollLeft = carousel.scrollLeft;
+              currentIndex = Math.round(scrollLeft / itemWidth);
+              updateDots(currentIndex);
+          });
+  
+          updateDots(currentIndex);
+        
+      </script>
+      </div>
 </div>
 
-<div class="swiper hight">
+
+      <script src="https://cdn.tailwindcss.com"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!--<div class="swiper hight">
   
   <div class="swiper-wrapper">
     
@@ -58,6 +150,6 @@
   <div class="swiper-pagination"></div> 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="assets/js/script.js"></script>
-</body>
-</html>
+-->
+
+ <!-- Pagination Dots -->

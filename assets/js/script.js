@@ -19,18 +19,6 @@ document.getElementById("seeMoreBtn").onclick = function() {
     }
 };
 
-const swiper = new Swiper('.swiper', {
-  grabCursor : true,
- pagination: {
-      el: '.swiper-pagination',
-      clickable : true,
-    },
- 
-  
-  
-  });
-  
-
 
 
 
