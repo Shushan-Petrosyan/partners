@@ -174,7 +174,7 @@ body {
          }
         .footer-main {
             width: 370px;
-         
+           background-color:#f9f9f9  !important;
         }
 
          .grid {
@@ -245,6 +245,7 @@ body {
 
 .py-1{
     display: flex !important;
+    margin-top: 40px !important;
 }
    .icns {
     width:100% !important;
