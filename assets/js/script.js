@@ -14,11 +14,15 @@ document.getElementById("seeMoreBtn").onclick = function() {
         a++;
         for (let i = 0; i < morePictures.length; i++) {
             morePictures[i].style.display = "block";
-        }
+         
+      
         this.textContent = "Скрыть";
     }
+   
 };
 
+document.getElementById("end-icon").src="assets/icons/knopka.svg";
+}
 
 
 
