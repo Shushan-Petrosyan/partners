@@ -18,11 +18,17 @@ document.getElementById("seeMoreBtn").onclick = function() {
       
         this.textContent = "Скрыть";
     }
-   
+
 };
 
-document.getElementById("end-icon").src="assets/icons/knopka.svg";
+ //document.getElementById("seeMoreBtn").src="assets/icons/knopka.svg";
+
 }
+
+
+
+
+
 
 
 

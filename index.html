@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="assets/css/style.css">
- <!--  <link
-   rel="stylesheet"
-   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
- />-->
     <title>Icon Grid</title>
 </head>
 <body>
@@ -32,11 +28,41 @@
         <div class="icon hidden"><img class="grid-icn"  src="assets/icons/cat1 copy 7.svg" alt=""> </div>
       </div>
 
-   <div class="end"> 
+<!---  <button class="end"> 
     <img id="end-icon" src="assets/icons/expand.png" alt=""> 
      
     <button id="seeMoreBtn">Показать все </button>
+  </button>
+
+<button id="seeMoreBtn"><img id="end-icon" src="assets/icons/expand.png" alt=""> 
+  Показать все
+</button>
+
+<div id="seeMoreBtn">
+  <span class="button__icon">
+    <img class="imgs" src="assets/icons/expand.png" alt="">
+    Показать все
+  </span>
 </div>
+--> 
+
+<img id="myImage" src="assets/icons/expand.png" alt="" width="24">
+
+<button id="seeMoreBtn">Показать все</button>
+
+<script>
+    const image = document.getElementById('myImage');
+    const button = document.getElementById('seeMoreBtn');
+
+    function changeImage() {
+        image.src = image.src.includes('150') ? 'assets/icons/knopka.svg' : 'assets/icons/knopka.svg';
+    }
+
+    button.addEventListener('click', changeImage);
+</script>
+
+
+<div class="main">
 
     <div  id="carousel" class="py-1 flex justify-between items-center mt-2 gap-2 overflow-hidden overflow-x-auto scrollbar-hidden">
         <a href="#" class="w-[240px] h-203 relative bg-neutral-200 shadow-sm transition-all duration-300 rounded-md hover:scale-[1.05] flex-shrink-0 overflow-hidden">
@@ -69,9 +95,6 @@
   </a>
     </div>
 
-
-
-
  <div class="flex justify-center mt-4" id="pagination-dots">
   <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="0"></span>
   <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="1"></span>
@@ -81,7 +104,6 @@
   <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="5"></span>
   <span class="dot w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer" data-index="6"></span>
  
-
 <script>
   const carousel = document.getElementById('carousel');
   const dots = document.querySelectorAll('.dot');
@@ -114,7 +136,7 @@
       </script>
       </div>
 </div>
-
+</div>
 
       <script src="https://cdn.tailwindcss.com"></script>
 <script src="assets/js/script.js"></script>
